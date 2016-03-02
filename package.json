@@ -1,0 +1,19 @@
+{
+  "name": "ts-book",
+  "version": "1.0.0",
+  "description": "TypeScript book examples",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaklakariada/ts-book.git"
+  },
+  "author": "kaklakariada",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kaklakariada/ts-book/issues"
+  },
+  "homepage": "https://github.com/kaklakariada/ts-book#readme"
+}
