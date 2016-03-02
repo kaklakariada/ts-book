@@ -4,13 +4,7 @@ var gulp = require('gulp');
 var tslint = require('gulp-tslint');
 var ts = require('gulp-typescript');
 
-var tsProject = ts.createProject({
-  removeComments: true,
-  noImplicitAny: true,
-  target: 'ES3',
-  module: 'commonjs',
-  declarationFiles: false
-});
+var tsProject = ts.createProject('tsconfig.json');
 
 gulp.task('tsc', function() {
   return gulp.src(['./source/ts/**/**.ts'])
