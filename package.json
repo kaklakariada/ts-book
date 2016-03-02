@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/kaklakariada/ts-book/issues"
   },
-  "homepage": "https://github.com/kaklakariada/ts-book#readme"
+  "homepage": "https://github.com/kaklakariada/ts-book#readme",
+  "devDependencies": {
+    "gulp-typescript": "^2.12.0"
+  }
 }
