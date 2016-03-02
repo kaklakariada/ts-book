@@ -1,8 +1,5 @@
 // 3th party
-///<reference path="../../typings/bluebird/bluebird.d.ts" />
-///<reference path="../../typings/jquery/jquery.d.ts" />
-///<reference path="../../typings/lodash/lodash.d.ts" />
-///<reference path="../../typings/handlebars/handlebars.d.ts" />
+///<reference path="../../typings/browser.d.ts" />
 
 // App
 ///<reference path="model.ts" />
