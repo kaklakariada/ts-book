@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/kaklakariada/ts-book#readme",
   "devDependencies": {
+    "gulp": "^3.9.1",
     "gulp-typescript": "^2.12.0"
   },
   "dependencies": {
