@@ -1,0 +1,19 @@
+{
+  "name": "ts-book",
+  "description": "TypeScript book examples",
+  "main": "index.html",
+  "authors": [
+    "kaklakariada"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/kaklakariada/ts-book",
+  "moduleType": [],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
