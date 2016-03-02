@@ -3,6 +3,8 @@
   "dependencies": {},
   "devDependencies": {},
   "ambientDependencies": {
+    "bluebird": "github:DefinitelyTyped/DefinitelyTyped/bluebird/bluebird.d.ts#dd328830dddffbe19e9addd7cf8532cbd3600816",
+    "handlebars": "github:DefinitelyTyped/DefinitelyTyped/handlebars/handlebars.d.ts#4de74cb527395c13ba20b438c3a7a419ad931f1c",
     "jquery": "github:DefinitelyTyped/DefinitelyTyped/jquery/jquery.d.ts#470954c4f427e0805a2d633636a7c6aa7170def8"
   }
 }
