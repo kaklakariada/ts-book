@@ -5,6 +5,7 @@ var tslint = require('gulp-tslint');
 var ts = require('gulp-typescript');
 
 var tsProject = ts.createProject('tsconfig.json');
+var tsTestProject = ts.createProject('tsconfig.json');
 
 gulp.task('tsc', function() {
   return gulp.src(['./source/ts/**/**.ts'])
@@ -12,6 +13,11 @@ gulp.task('tsc', function() {
     .js.pipe(gulp.dest('./temp/source/js'));
 });
 
+gulp.task('tsc-tests', function() {
+  return gulp.src(['./test/ts/**/**.ts'])
+    .pipe(ts(tsTestProject))
+    .js.pipe(gulp.dest('./temp/test'));
+});
 
 gulp.task('lint', function() {
   return gulp.src(['./source/ts/**/**.ts', './test/**/**.test.ts'])
@@ -20,4 +26,4 @@ gulp.task('lint', function() {
 });
 
 
-gulp.task('default', ['lint']);
+gulp.task('default', ['lint', 'tsc', 'tsc-tests']);
