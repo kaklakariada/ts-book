@@ -20,9 +20,9 @@
     "gulp": "^4.0.2",
     "gulp-tslint": "^8.1.4",
     "gulp-typescript": "^5.0.1",
-    "tslint": "^6.0.0"
+    "tslint": "^6.1.2"
   },
   "dependencies": {
-    "jquery": "^3.4.1"
+    "jquery": "^3.5.1"
   }
 }
